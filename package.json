@@ -41,7 +41,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JulsRicketti/CBT.git"
+    "url": "git+https://github.com/JulsRicketti/next_react_boiletplate"
   },
   "author": "Julia Ricketti",
   "license": "MIT"

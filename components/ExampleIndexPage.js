@@ -1,10 +1,10 @@
 import React from 'react'
 import { Layout }  from './Layout'
 
-export function Page1 () {
+export function ExampleIndexPage () {
   return (
     <Layout>
-      Contents of Page 1
+      Contents of Example Index Page
     </Layout>
   )
 }
