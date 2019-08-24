@@ -1,0 +1,48 @@
+{
+  "name": "next_react_boiletplate",
+  "version": "1.0.0",
+  "description": "NextJS and ReactJS General Purpose Boilerplate",
+  "main": "index.js",
+  "dependencies": {
+    "babel-loader": "7.1.5",
+    "jquery": "3.4.1",
+    "next": "6.1.2",
+    "prop-types": "15.7.2",
+    "react": "16.9.0",
+    "react-dom": "16.9.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.5.5",
+    "@babel/preset-env": "7.5.5",
+    "@babel/register": "7.5.5",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^7.2.3",
+    "babel-plugin-transform-class-properties": "6.24.1",
+    "babel-plugin-transform-object-rest-spread": "6.23.0",
+    "eslint": "4.19.1",
+    "eslint-config-standard": "11.0.0",
+    "eslint-plugin-import": "2.18.2",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "3.8.0",
+    "eslint-plugin-react": "7.14.3",
+    "eslint-plugin-standard": "3.1.0",
+    "gulp": "^3.9.1",
+    "mocha": "5.2.0"
+  },
+  "standard": {
+    "parser": "babel-eslint"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "semantic": "cd semantic && gulp build",
+    "test": "mocha --require @babel/register --watch-extensions js **/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JulsRicketti/CBT.git"
+  },
+  "author": "Julia Ricketti",
+  "license": "MIT"
+}
